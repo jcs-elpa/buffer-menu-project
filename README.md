@@ -6,7 +6,7 @@
 
 [![CI](https://github.com/jcs-elpa/buffer-menu-project/actions/workflows/test.yml/badge.svg)](https://github.com/jcs-elpa/buffer-menu-project/actions/workflows/test.yml)
 
-## Usage
+## 🔨 Usage
 
 * `buffer-menu-project`
 * `buffer-menu-project-other-window`

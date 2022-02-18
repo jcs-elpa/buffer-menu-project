@@ -71,6 +71,7 @@
     (with-current-buffer (list-buffers-noselect nil buffers)
       (setq buffer-menu-project-name name
             buffer-menu-project-buffers buffers)
+      (rename-buffer (format "*Buffer List*: %s" name) t)
       (current-buffer))))
 
 ;;;###autoload

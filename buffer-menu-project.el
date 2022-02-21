@@ -7,7 +7,7 @@
 ;; Description: List buffers relative to project.
 ;; Keyword: buffer menu project
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "25.1") (f "0.20.0"))
+;; Package-Requires: ((emacs "25.1") (project "0.8.1") (f "0.20.0"))
 ;; URL: https://github.com/jcs-elpa/buffer-menu-project
 
 ;; This file is NOT part of GNU Emacs.

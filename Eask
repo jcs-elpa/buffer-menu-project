@@ -1,9 +1,14 @@
-(source "gnu")
-(source "melpa")
+(package "buffer-menu-project"
+         "0.1.0"
+		 "List buffers relative to project")
 
-(package "buffer-menu-project" "0.1.0" "List buffers relative to project")
+(website-url "https://github.com/jcs-elpa/buffer-menu-project")
+(keywords "buffer" "menu" "project")
 
 (package-file "buffer-menu-project.el")
+
+(source "gnu")
+(source "melpa")
 
 (depends-on "emacs" "25.1")
 (depends-on "project")

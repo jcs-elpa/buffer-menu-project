@@ -3,7 +3,7 @@
 		 "List buffers relative to project")
 
 (website-url "https://github.com/jcs-elpa/buffer-menu-project")
-(keywords "buffer" "menu" "project")
+(keywords "convenience" "buffer" "menu" "project")
 
 (package-file "buffer-menu-project.el")
 

@@ -64,6 +64,11 @@
   "Return project name."
   (f-base (project-root (project-current t))))
 
+;;;###autoload
+(defun buffer-menu-project-buffer-name ()
+  "Form buffer name."
+  (format "*Buffer List*: %s" (buffer-menu-project--name)))
+
 (defun buffer-menu-project--list-buffers-noselect (name &optional files-only buffer-list)
   "Borrow from function `list-buffers-noselect'."
   (let ((old-buffer (current-buffer))

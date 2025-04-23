@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "buffer-menu-project"
          "0.1.0"
 		 "List buffers relative to project")
